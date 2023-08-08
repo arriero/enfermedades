@@ -104,7 +104,7 @@ class SearchResultPage extends StatelessWidget {
 
               return SingleChildScrollView(
                 child: DefaultTextStyle(
-                  style: textTheme.headline3!.copyWith(color: Colors.black),
+                  style: textTheme.displaySmall!.copyWith(color: Colors.black),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(

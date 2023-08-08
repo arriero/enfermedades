@@ -29,7 +29,7 @@ class _ExamplesState extends State<Examples> {
       children: [
         RichText(
           text: TextSpan(
-            style: textTheme.headline6?.copyWith(
+            style: textTheme.titleLarge?.copyWith(
               fontWeight: FontWeight.bold,
               letterSpacing: 1,
             ),

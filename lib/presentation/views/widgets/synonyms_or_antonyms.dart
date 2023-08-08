@@ -88,7 +88,7 @@ class _SynonymOrAntonymState extends State<SynonymOrAntonym> {
         children: [
           RichText(
             text: TextSpan(
-              style: widget.textTheme.headline6?.copyWith(
+              style: widget.textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1,
               ),

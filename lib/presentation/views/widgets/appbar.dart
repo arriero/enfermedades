@@ -22,7 +22,7 @@ AppBar getAppBar(BuildContext context, TextTheme textTheme,
               children: [
                 const Icon(Icons.arrow_back_ios_new, size: 30),
                 Text('Search',
-                    style: textTheme.headline6?.copyWith(color: Colors.black)),
+                    style: textTheme.titleLarge?.copyWith(color: Colors.black)),
               ],
             ),
           ),

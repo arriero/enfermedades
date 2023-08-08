@@ -1,4 +1,4 @@
-import 'package:dictionary/models/word_description/definition.dart';
+//import 'package:dictionary/models/word_description/definition.dart';
 import 'package:dictionary/models/word_description/meaning.dart';
 import 'package:dictionary/utils/extensions/iterable.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +23,7 @@ class _WordDefinitionState extends State<WordDefinition> {
       children: [
         RichText(
           text: TextSpan(
-            style: textTheme.headline6?.copyWith(
+            style: textTheme.headlineMedium?.copyWith(
               fontWeight: FontWeight.bold,
               letterSpacing: 1,
             ),

@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                   children: [
                     Text(
                       'Dictionary',
-                      style: theme.headline4?.copyWith(
+                      style: theme.headlineMedium?.copyWith(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                       ),
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Text(
                         'Recent',
-                        style: theme.headline4?.copyWith(
+                        style: theme.headlineMedium?.copyWith(
                             color: Colors.black, fontWeight: FontWeight.bold),
                       ),
                       Expanded(
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                                 contentPadding: EdgeInsets.zero,
                                 title: Text(
                                   setValues[i],
-                                  style: theme.headline5
+                                  style: theme.headlineSmall
                                       ?.copyWith(color: Colors.black87),
                                 ),
                               ),
